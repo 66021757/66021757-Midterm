@@ -1,0 +1,67 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projecta {
+    width: 33.33%;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.385);
+    margin: 0;
+}
+
+.projectb {
+    width: 33.33%;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.523);
+    margin: 0;
+}
+
+.projectc {
+    width: 33.33%;
+    text-align: center;
+    background-color: rgba(221, 160, 221, 0.517);
+    margin: 0;
+}
+
+.footer {
+    position: fixed;
+    width: 98.75%;
+    background-color: white;
+    border: 2px solid #555555;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333db;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: #333;
+}
